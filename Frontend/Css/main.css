@@ -1,0 +1,548 @@
+@media only screen and (min-width: 1200px) {
+    .con {
+        max-width: 1300px !important;
+    }
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../Font/Proxima/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova semibold";
+    src: url("../Font/Proxima/ProximaNova-Semibold.ttf");
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Important part */
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.modal-header {
+    background-color: #e83b4f;
+    border: 0px;
+}
+
+.modal-title {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.pmodalsubtitle {
+    font-family: Proxima Nova Semibold;
+    color: #212121;
+    font-size: 1rem;
+}
+
+.pmodaltitle {
+    font-family: Proxima Nova Semibold;
+    color: #e83b4f;
+    font-size: 1rem;
+}
+
+.pmodaltext {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 0.9rem;
+}
+
+.pannouncement {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btndecline {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #e83b4f;
+}
+
+.btnaccept {
+    font-family: Proxima Nova;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #e83b4f;
+    border: 2px solid #e83b4f;
+}
+
+.preadmore {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.preadmore:hover, .pclose:hover, .btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstores:hover {
+    color: #e83b4f !important;
+}
+
+.pclose {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.vl {
+    border-left: 1px solid #424242;
+    height: 5px !important;
+    margin-left: 10px;
+}
+
+.btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstore:hover {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.txtsearch {
+    font-family: Proxima Nova;
+    color: #424242;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #9E9E9E;
+    outline: none;
+    border-radius: 5px;
+    background: url(../Image/search1.png) no-repeat 97% 7px white;
+    background-size: 18px;
+    width: 250px;
+}
+
+.btnhome:hover, .btnproduct:hover, .btncontact:hover, .btnnews:hover, .btnlogin:hover, .btncart:hover {
+    color: #e83b4f !important;
+}
+
+.imgcarousel {
+    border-radius: 20px;
+}
+
+.pnewsdate {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1rem;
+}
+
+.pnewstitle {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+}
+
+.pnewsdesc {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 0.9rem;
+    margin-top: -15px;
+}
+
+.paboutus {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.paboutus1 {
+    font-family: Proxima Nova;
+    color: #616161;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.plifekit {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.plifekit1 {
+    font-family: Proxima Nova;
+    color: #616161;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.pfilter {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1.7rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.pcategories {
+    font-family: Proxima Nova;
+    color: #424242;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pkit {
+    font-family: Proxima Nova;
+    color: #616161;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.pkit:hover {
+    color: #e83b4f;
+}
+
+.card-title {
+    font-family: Proxima Nova semibold;
+    color: #e83b4f;
+    font-size: 0.9rem;
+}
+
+.card-text {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: -5px;
+}
+
+.btnaddtocart {
+    font-family: Proxima Nova;
+    color: #212121;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #212121;
+    padding: 5px 5px;
+    width: 150px;
+    background: transparent;
+}
+
+.cbx {
+    position: relative;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: #606062;
+    background-image: linear-gradient(#474749, #606062);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.15);
+    transition: all 0.15s ease;
+}
+
+.cbx svg {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 17;
+    stroke-dashoffset: 17;
+    transform: translate3d(0, 0, 0);
+}
+
+.rdo {
+    position: relative;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #606062;
+    background-image: linear-gradient(#2962FF, #2962FF);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.15);
+    transition: all 0.15s ease;
+}
+
+.rdo1 {
+    background-image: linear-gradient(#f44336, #f44336);
+}
+
+.rdo2 {
+    background-image: linear-gradient(#FF5722, #FF5722);
+}
+
+.rdo:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 6px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.cbx+span, .rdo+span {
+    float: left;
+    margin-left: 6px;
+}
+
+.forms {
+    margin: auto;
+    user-select: none;
+}
+
+.forms label {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.forms input[type="checkbox"], .forms input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.forms input[type="radio"]:checked+.rdo:after {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.15s ease;
+}
+
+.btnsubscribe {
+    font-family: Proxima Nova;
+    color: #212121;
+    background-color: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.confooter {
+    background-color: #212121;
+    padding: 0px 20px;
+}
+
+.pfootertitle {
+    font-family: Proxima Nova;
+    color: #e83b4f;
+    font-size: 1rem;
+}
+
+.pfooterdesc {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.txtnewsletter {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 1rem;
+    background: url(../Image/right.png) no-repeat 97.25% 10px transparent;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid #e83b4f;
+    width: 300px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.divimagem, .imgnews {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.show-image:hover .image {
+    opacity: 0.3;
+}
+
+.show-image:hover .middle {
+    opacity: 1;
+}
+
+.btnaddtocart {
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 15px -7px #000000;
+    box-shadow: 1px 1px 17px -7px #000000;
+    border-radius: 50px;
+    border: 0px;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btnaddtocart:hover {
+    background-color: #e83b4f;
+}
+
+.platest {
+    font-family: Proxima Nova;
+    font-size: 1rem;
+    color: #212121;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pviewmore {
+    font-family: Proxima Nova;
+    font-size: 0.9rem;
+    color: #212121;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.platest:hover, .pviewmore:hover {
+    color: #e83b4f;
+}
+
+.ulside {
+    font-family: Proxima Nova;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: 0px;
+    padding-left: 5px;
+    line-height: 140%;
+}
+
+.ulside>li {
+    margin: 0 0 8px 0;
+}
+
+.ulside>li:hover {
+    color: #e83b4f;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.box>p {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.psocial {
+    font-family: Proxima Nova;
+    color: #212121;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.divNews {
+    text-align: justify;
+    border: 1px solid #E0E0E0;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 4px 15px;
+}
+
+.lblNews {
+    font-family: Proxima Nova semibold;
+    font-weight: 500;
+    font-size: 17px;
+    color: #212121;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: example1 15s linear infinite;
+    -webkit-animation: example1 15s linear infinite;
+    animation: example1 15s linear infinite;
+}
+
+.btnNews {
+    font-family: Proxima Nova;
+    color: white;
+    font-size: 15px;
+    background-color: #e83b4f;
+    border: 0px;
+    padding: 7px 15px;
+    margin-right: 5px;
+}
+
+.box1 {
+   border: 1px solid grey;
+   width: 100%;
+   height: 100%;
+}
+
+.pNews1, .pNews2,.pNews3, .pNews4 {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pNews1:hover,.pNews2:hover,.pNews3:hover, .pNews4:hover {
+    color: #e83b4f;
+}
+
+.ptitle {
+    font-family: Proxima Nova Semibold;
+    color: #212121;
+    font-size: 1rem;
+    line-height: 140%;
+}

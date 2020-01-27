@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='Script\jquery-3.3.1.min.js'></script>
+    <link href='Css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='Css/shop.css' rel='stylesheet' type='text/css'>
+    <script src='Script\bootstrap.min.js'></script>
+    <title>Getready - Shop</title>
+</head>
+
+<body>
+    <div class="container con">
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" data-toggle="navbar-collapse" data-target="#collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-brand" href="#">
+                <a href="#"><img src="Image/logo1.png" style="width: 170px;padding:0px;margin:0px;"></a>
+            </nav>
+            <div class="collapse navbar-collapse" id="collapse">
+                <div class="ml-auto">
+                    <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a class="nav-link btnservices"
+                                    style="margin-right: 20px;color:#142132;font-family:Proxima Nova Semibold;font-size: 16px;"
+                                    href="404.html">Home</a></li>
+                            <li><a class="nav-link btnpackages"
+                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                    href="404.html">Product</a></li>
+                            <li><a class="nav-link btnpackages"
+                                    style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                    href="contact.html">Contact</a></li>
+                        </ul>
+                        <li><a class="nav-link btnpackages"
+                                style="margin-right: 20px;color:#142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                href="404.html"><img src="Image/cart1.png" class="img-fluid"
+                                    style="width:18px;margin-right: 10px;margin-top:-5px;">Cart</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btnservices dropdown-toggle"
+                                style="margin-right: 20px;color: #142132;font-family: Proxima Nova Semibold;font-size: 16px;"
+                                href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"> <img src="Image/profile1.png" class="img-fluid"
+                                    style="width:18px;margin-right: 10px;margin-top:-5px;">My Account</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Sign up</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container con maincon">
+        <div class="row align-items-center justift-content-center">
+            <div class="col-lg-6" style="margin-top: 70px;padding-left: 35px;">
+                <p class="plifekit">LifeKit Bag</p>
+                <p class="plifekit1">Our LifeKit back is designed and developed after an extensive R&D process taking
+                    into consideration the victim's Emotional State of Mind and the most pressing needs during emergency
+                    situations.</p>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <P class="psubtitle">Color</P>
+                            <div class="forms"
+                                style="margin-left: 0px;margin-top: -10px;background-color: white;width:95px;height:40px;border-radius:5px;">
+                                <label for="rdo1">
+                                    <input type="radio" id="rdo1" name="radio">
+                                    <span class="rdo"></span>
+                                </label>
+                                <label for="rdo2" style="margin-left: -5px;">
+                                    <input type="radio" id="rdo2" name="radio" checked>
+                                    <span class="rdo rdo1"></span>
+                                </label>
+                                <label for="rdo3" style="margin-left: -5px;">
+                                    <input type="radio" id="rdo2" name="radio" checked>
+                                    <span class="rdo rdo2"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" style="margin-left: 20px;">
+                        <P class="psubtitle">Quantity</P>
+                        <div class="form-group"
+                            style="background-color: white;width:67px;height:40px;margin-top:-10px;">
+                            <div style="padding-top: 7px;">
+                                <button class="btnminus btn1" disabled>&#8722;</button>
+                                <label class="p1">0</label>
+                                <button class="btnplus btn1">&#43;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="btnaddtocart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="Image/item1.png" class="img-fluid mx-auto d-block" style="width:450px;">
+            </div>
+        </div>
+    </div>
+    <div class="container con">
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-lg-12">
+                <p class="plist">List of all products</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Fullkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible trapped situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Slingkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible evacuation and escape situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Solokit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For individual situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Fullkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible trapped situational needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container con">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Fullkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible trapped situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Slingkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible evacuation and escape situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Solokit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For individual situational needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" style="width: 18rem;border:0px;background-color: #EDF1F2;">
+                    <img src="Image/item1.png" class="card-img-top img-fluid mx-auto d-block"
+                        style="width:250px;padding: 20px 0px;">
+                    <div class="card-body" style="background-color: white;">
+                        <h5 class="card-title">Fullkit<span class="float-right">&#8369;999</span></h5>
+                        <p class="card-text">For possible trapped situational needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container con">
+        <div class="row align-items-center" style="margin-top: 40px;">
+            <div class="col-lg-6">
+                <img src="Image/try.jpg" class="img-fluid" style="width: 600px;border-radius: 10px;-webkit-box-shadow: 1px 1px 15px -7px #000000; 
+                box-shadow: 1px 1px 15px -7px #000000;">
+            </div>
+            <div class="col-lg-6">
+                <p class="pcoltitle">Lorem ipsum dolor sit amet</p>
+                <p class="pcoltitle1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="form-group">
+                    <div class="row" style="margin-top: 25px;">
+                        <div class="col-sm-4">
+                            <img src="Image/health.png" class="img-fluid">
+                            <label class="pfirstaid">First aid</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="Image/survival.png" class="img-fluid">
+                            <label class="pfirstaid">Survival Kit</label>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="col-sm-4">
+                            <img src="Image/info.png" class="img-fluid">
+                            <label class="pfirstaid">Emergency info</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="Image/bubbles.png" class="img-fluid">
+                            <label class="pfirstaid">Hygiene</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-top: 40px;background-color: #EDF1F2;">
+        <div class="row" style="margin-top: 70px;padding-bottom: 70px;">
+            <div class="col-lg-12 text-center">
+                <p class="pnewsletter">SIGN UP TO NEWSLETTER</p>
+                <p class="pnewsletter1">Sign up for our weekly newsletter for all the latest and special offers</p>
+                <input type="text" class="txtnewsletter">
+                <button class="btnsubscribe1">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid confooter">
+        <div class="container">
+            <div class="row" style="margin-top: 70px;padding-bottom: 40px;">
+                <div class="col-lg-5" style="margin-top: 40px;">
+                    <p class="pconnect">Connect with us</p>
+                    <div class="form-inline">
+                        <img src="Image/facebook.png" class="img-fluid" style="width:30px;margin-right: 25px;">
+                        <img src="Image/twitter.png" class="img-fluid" style="width:30px;margin-right: 25px;">
+                        <img src="Image/instagram.png" class="img-fluid" style="width:30px;margin-right: 25px;">
+                        <img src="Image/youtube.png" class="img-fluid" style="width:30px;margin-right: 25px;">
+                    </div>
+                    <p class="pconnect" style="margin-top: 20px;">Stay up to date with GetreadyPh</p>
+                    <p class="pconnectsub" style="margin-top:-5px;">Subscribe to our newsletter to receive updates on
+                        the latest news, releases and special offers. We Respect
+                        your privacy. Your infomation is safe and will never be shared.</p>
+                </div>
+                <div class="col-lg-2" style="margin-top: 40px;">
+                    <p class="pconnect">Pages</p>
+                    <p class="ptitlesub">Home</p>
+                    <p class="ptitlesub">Product</p>
+                    <p class="ptitlesub">About</p>
+                    <p class="ptitlesub">Contact</p>
+                </div>
+                <div class="col-lg-2" style="margin-top: 40px;">
+                    <p class="pconnect">Address</p>
+                    <p class="ptitlesub">G/F Savana Commercial Building 3, Venecia St., cor. Metropolitan Avenue, Brgy
+                        Sta. Cruz
+                        Makati 1203</p>
+                </div>
+                <div class="col-lg-3" style="margin-top: 40px;">
+                    <img src="Image/logo.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr style="background-color: #424242;">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="pcopyright">Copyright &#x24B8; <span style="color: white;">GetReadyPh</span>. All rights
+                        reserved.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-inline float-right" style="margin-top: -20px;">
+                        <img src="Image/visa.png" class="img-fluid" style="margin-right: 10px;">
+                        <img src="Image/mastercard.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.btn1').on('click', function () {
+        var input = $('.p1'),
+            theVal = parseInt(input.text());
+        theVal = ($(this).attr('class') == 'btnplus') ? theVal + 1 : theVal - 1;
+        $('.btnminus').attr('disabled', (theVal <= 0));
+        input.text(theVal);
+    });
+</script>
+
+</html>
