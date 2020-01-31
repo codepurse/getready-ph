@@ -1,0 +1,333 @@
+@media only screen and (min-width: 1200px) {
+    .con {
+        max-width: 1300px !important;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+    .btnabout,
+    .btnstores,
+    .btnfaq,
+    .btncontact {
+        display: block !important;
+    }
+    .navLeftTop {
+        display: none !important;
+        background-color: black !important;
+    }
+    .navSearch {
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    .txtsearch {
+        width: 100% !important;
+    }
+    .pfew {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .colInfo {
+        margin: 0 auto !important;
+        padding-left: 17px !important;
+        padding-bottom: 20px !important;
+    }
+    input[type="text"] {
+        width: 100% !important;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../Font/Proxima/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova semibold";
+    src: url("../Font/hind/ProximaNova-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "Mont Demo";
+    src: url("../Font/mont/Mont-HeavyDEMO.otf");
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.pannouncement {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.preadmore {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.preadmore:hover,
+.pclose:hover,
+.btnabout:hover,
+.btnfaq:hover,
+.btncontact:hover,
+.btnstores:hover,
+.btnhome:hover,
+.btnproduct:hover,
+.btnupdates:hover,
+.btnnews:hover,
+.btnlogin:hover,
+.btncart:hover {
+    color: #e83b4f !important;
+}
+
+.pclose {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.vl {
+    border-left: 1px solid #424242;
+    height: 5px !important;
+    margin-left: 10px;
+}
+
+.btnabout:hover,
+.btnfaq:hover,
+.btncontact:hover,
+.btnstore:hover {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.txtsearch {
+    font-family: Roboto, sans-serif;
+    color: #424242;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #9E9E9E;
+    outline: none;
+    border-radius: 5px;
+    background: url(../Image/search1.png) no-repeat 97% 7px white;
+    background-size: 18px;
+    width: 250px;
+}
+
+.btnhome:hover,
+.btnproduct:hover,
+.btncontact:hover,
+.btnnews:hover,
+.btnlogin:hover,
+.btncart:hover {
+    color: #e83b4f !important;
+}
+
+.pfew {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    color: #424242;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.pbreadcrumbs {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #212121;
+    font-size: 1.1rem;
+}
+
+.dots {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #212121;
+    font-size: 2rem;
+}
+
+.ptitle {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.check {
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+}
+
+.check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34, 50, 84, 0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c8ccd4;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+}
+
+.check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+}
+
+.check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+}
+
+.check:hover:before {
+    opacity: 1;
+}
+
+.check:hover svg {
+    stroke: #4285f4;
+}
+
+#cbx:checked+.check svg {
+    stroke: #4285f4;
+}
+
+#cbx:checked+.check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#cbx:checked+.check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+.pbilling {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    margin-left: 10px;
+    margin-top: 10px !important;
+    font-weight: 500;
+}
+
+.paddresstitle {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.txt {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    width: 450px;
+    background-color: transparent;
+    border: 1px solid #c8ccd4;
+    font-size: 1rem;
+    padding: 12px 30px;
+    letter-spacing: 0.9px !important;
+    font-weight: 500;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.4);
+}
+
+.rdo {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100% !important;
+    font-weight: 500;
+}
+
+.ptitle {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.ptitledesc {
+    font-family: Roboto, sans-serif;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.confooter {
+    background-color: #212121;
+    padding: 0px 20px;
+}
+
+.pfootertitle {
+    font-family: Roboto, sans-serif;
+    color: #e83b4f;
+    font-size: 1rem;
+}
+
+.pfooterdesc {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.txtnewsletter {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 1rem;
+    background: url(../Image/right.png) no-repeat 97.25% 10px transparent;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid #e83b4f;
+    width: 300px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btnpayment {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #e83b4f;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+    outline: none;
+}

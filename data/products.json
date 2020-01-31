@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Auto Kit",
+        "image": "/Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Trauma Kit",
+        "image": "/Image/Bag Photos/Trauma Kit/basictrauma.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Carry Kit",
+        "image": "/Image/Bag Photos/Carry Kit/Carry.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"EDC Kit",
+        "image": "/Image/Bag Photos/EDC Kit/EDCnew.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Flexi Kit",
+        "image": "/Image/Bag Photos/Flexi Kit/FLEXIKITEXPANDED.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Sling Kit",
+        "image": "/Image/Bag Photos/Sling/sling.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Mega Kit",
+        "image": "/Image/Bag Photos/Mega Kit/MegaKit.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Kidz Kit",
+        "image": "/Image/Bag Photos/KIDZ/LifeKit Kidz.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "name":"Auto Kit",
+        "image": "/Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet"
+    }
+]
