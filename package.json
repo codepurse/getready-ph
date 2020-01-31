@@ -1,0 +1,26 @@
+{
+  "name": "getready-web",
+  "version": "1.0.0",
+  "description": "The Getready E-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://randolphyu@bitbucket.org/guerilla360/getready-web.git"
+  },
+  "author": "Guerilla 360",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/guerilla360/getready-web#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
