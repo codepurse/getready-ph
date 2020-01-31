@@ -496,10 +496,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -580,10 +581,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -651,10 +653,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -722,10 +725,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -806,10 +810,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -877,10 +882,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
@@ -948,10 +954,11 @@ function HomePage() {
                                   src="Image/carthover.png "
                                   onMouseOver={e =>
                                     (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
+                                      "Image/carthoverwhite.png")
                                   }
                                   onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
+                                    (e.currentTarget.src =
+                                      "Image/carthover.png")
                                   }
                                   className="img-fluid "
                                 />
