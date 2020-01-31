@@ -4,29 +4,6 @@
     }
 }
 
-@media only screen and (max-width: 990px) {
-    .navLeftTop {
-        display: none !important;
-    }
-    .navSearch {
-        margin: 0 auto !important;
-        width: 100% !important;
-    }
-    .txtsearch {
-        width: 100% !important;
-    }
-    .btnabout,
-    .btnstores,
-    .btnfaqs,
-    .btncontact {
-        display: block !important;
-    }
-    .divNews {
-        width: 95% !important;
-        margin-left: 5%;
-    }
-}
-
 @media only screen and (max-width: 757px) {
     .btnabout,
     .btnstores,
@@ -47,6 +24,13 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .accordion,
+    .content {
+        width: 100% !important;
+    }
+}
+
 @font-face {
     font-family: "Proxima Nova";
     src: url("../Font/Proxima/ProximaNova-Regular.ttf");
@@ -55,11 +39,6 @@
 @font-face {
     font-family: "Proxima Nova semibold";
     src: url("../Font/Proxima/ProximaNova-Semibold.ttf");
-}
-
-@font-face {
-    font-family: "Proxima Nova bold";
-    src: url("../Font/Proxima/ProximaNova-bold.ttf");
 }
 
 @font-face {
@@ -72,6 +51,7 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .pannouncement {
@@ -90,7 +70,13 @@ html {
 .btnabout:hover,
 .btnfaq:hover,
 .btncontact:hover,
-.btnstores:hover {
+.btnstores:hover,
+.btnhome:hover,
+.btnproduct:hover,
+.btnupdates:hover,
+.btnnews:hover,
+.btnlogin:hover,
+.btncart:hover {
     color: #e83b4f !important;
 }
 
@@ -138,109 +124,131 @@ html {
     color: #e83b4f !important;
 }
 
-.pgoback {
-    color: #BDBDBD;
-    font-family: Proxima Nova semibold;
-    font-size: 1rem;
-}
-
-.btngoback {
-    color: #424242;
-    font-family: Proxima Nova semibold;
-    font-size: 1rem;
-    border: 0px;
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.btngoback:hover {
-    color: #e83b4f;
-}
-
-.divImage {
-    border: 1px solid #E0E0E0;
-    width: 500px;
-    height: 350px;
-    border-radius: 5px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.pItemName {
+.pFaq {
     font-family: Mont Demo;
     font-size: 2rem;
     color: #212121;
 }
 
-.pItemPrice {
-    font-family: Proxima Nova bold;
-    font-size: 1.4rem;
-}
-
-.pStocks {
-    font-family: Proxima Nova semibold;
-    color: #81C784;
-    margin-left: 10px;
-}
-
-.pItemDesc {
+.pFaqSub {
     font-family: Proxima Nova;
-    color: gray;
-    font-size: 0.9rem;
-    margin-top: 25px;
+    font-size: 1rem;
+    color: #424242;
+    margin-top: -20px;
 }
 
-.pAdd {
-    font-family: Proxima Nova bold;
-    color: #212121;
+ul {
+    list-style-type: none;
+}
+
+.ulNav {
+    font-family: Proxima Nova;
+    color: #212121 !important;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.2s;
+    margin-top: 15px;
+    text-decoration: none !important;
 }
 
-.pPlus {
-    margin-left: 10px;
-    font-family: Mont Demo;
-    margin-top: -10px;
-    cursor: pointer;
-    transition: all 0.2s;
+.ulNav:hover {
+    color: #e83b4f !important;
 }
 
-.pPlus:hover,
-.pAdd:hover {
-    color: #e83b4f;
-}
-
-.imgProduct {
-    border: 1px solid lightgray;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.imgProduct:hover {
-    border-color: #e83b4f;
-}
-
-.pProduct {
-    font-family: Proxima Nova bold;
-    color: #212121;
-    font-size: 1.2rem;
-}
-
-.pProductSub {
+.pNumber {
     font-family: Proxima Nova semibold;
-    color: #e83b4f;
-    font-size: 0.9rem;
-    margin-top: -10px;
+    font-size: 1rem;
+    color: #212121;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
-.pItemDesc {
+.accordion a {
     font-family: Proxima Nova;
-    color: #616161;
-    margin-top: 20px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 700px;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+    cursor: pointer;
+    color: #e83b4f;
+}
+
+.accordion a:hover::after {
+    border: 1px solid #e83b4f;
+}
+
+.accordion a.active {
+    color: #e83b4f;
+    border-bottom: 1px solid #e83b4f;
+}
+
+.accordion a::after {
+    font-family: sans-serif;
+    content: '\0002B';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 0.9rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.accordion a.active::after {
+    font-family: sans-serif;
+    content: '\02212';
+    color: #e83b4f;
+    border: 1px solid #e83b4f;
+}
+
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+    width: 700px;
+}
+
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
 }
 
 .confooter {
@@ -273,19 +281,4 @@ html {
     width: 300px;
     padding: 5px 10px;
     outline: none;
-}
-
-.pItem {
-    font-family: Proxima Nova, sans-serif;
-    color: #212121;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-.pItemDesc1 {
-    font-family: Proxima Nova;
-    color: #616161;
-    font-size: 0.9rem;
-    font-weight: normal;
-    line-height: 135%;
 }
