@@ -53,7 +53,7 @@ export const GuestHeader = props => (
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contactF">
+                    <Link href="/contact">
                       <a
                         className="nav-link btncontact"
                         style={{
