@@ -11,8 +11,9 @@ function Default({ router, children, meta, announcement }) {
       <GuestHeader announcement={announcement} />
       {children}
       {console.log(router.pathname)}
-      {router.pathname === '/shop' ? <ShopFooter /> : <Footer/>}
+      {router.pathname === '/shop' ? <Footer /> : <Footer/>}
     </div>
   );
 }
 export default withRouter(Default);
+  

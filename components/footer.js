@@ -7,8 +7,7 @@ export const Footer = () => (
         <div className="col-lg-4 ">
           <p className="pfootertitle ">Address</p>
           <p className="pfooterdesc ">
-            GF Savana Commercial Bldg 3, Venecia St., cor, Metropolitan Ave,
-            Makati, Metro Manila
+          Address is Unit E JEMP Bldg Cabarrus cor Monserrat Sts BF Paranaque City
           </p>
         </div>
         <div className="col-lg-4 ">
@@ -140,8 +139,7 @@ export const ShopFooter = () => (
         <div className="col-lg-2" style={{ marginTop: "40px" }}>
           <p className="pconnect">Address</p>
           <p className="ptitlesub">
-            G/F Savana Commercial Building 3, Venecia St., cor. Metropolitan
-            Avenue, Brgy Sta. Cruz Makati 1203
+          Address is Unit E JEMP Bldg Cabarrus cor Monserrat Sts BF Paranaque City
           </p>
         </div>
         <div className="col-lg-3" style={{ marginTop: "40px" }}>

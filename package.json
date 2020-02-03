@@ -4,7 +4,9 @@
   "description": "The Getready E-commerce website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,5 @@
     "next": "^9.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
   }
 }
