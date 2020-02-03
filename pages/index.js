@@ -337,15 +337,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style= {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png"
-                              className="card-img-top img-fluid mx-auto d-block image "
-                              style={{ width: "150px", marginTop: "20px" }}
+                              className="card-img-top img-fluid mx-auto image "
+                              style={{ width: "150px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -410,12 +410,12 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
-                          <div className="col-lg-12 ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
+                          <div className="col-lg-12">
                             <img
-                              src="Image/Bag Photos/Trauma Kit/basictrauma.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
-                              style={{ width: "160px", marginTop: "35px" }}
+                              src="Image/Bag Photos/Trauma Kit/trauma.png"
+                              className="card-img-top img-fluid mx-auto image"
+                              style={{ width: "160px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -479,15 +479,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Carry Kit/Carry.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
-                              style={{ width: "150px", marginTop: "40px" }}
+                              className="card-img-top img-fluid mx-auto image "
+                              style={{ width: "150px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -564,15 +564,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/EDC Kit/EDCnew.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
-                              style={{ width: "150px", marginTop: "35px" }}
+                              className="card-img-top img-fluid mx-auto image "
+                              style={{ width: "150px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -636,15 +636,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Flexi Kit/FLEXIKITEXPANDED.png "
-                              className="card-img-top img-fluid image "
-                              style={{ width: "140px", margin: "0px auto" }}
+                              className="card-img-top img-fluid image mx-auto"
+                              style={{ width: "140px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -708,14 +708,14 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Sling/sling.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
+                              className="card-img-top img-fluid mx-auto image"
                               style={{ width: "110px" }}
                               alt="... "
                             />
@@ -793,14 +793,14 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Mega Kit/MegaKit.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
+                              className="card-img-top img-fluid mx-auto image "
                               style={{ width: "150px", marginTop: "30px" }}
                               alt="... "
                             />
@@ -865,15 +865,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
-                            className="col-lg-12 show-image "
+                            className="col-lg-12 show-image"
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/KIDZ/LifeKit Kidz.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
-                              style={{ width: "150px", marginTop: "20px" }}
+                              className="card-img-top img-fluid mx-auto image "
+                              style={{ width: "150px"}}
                               alt="... "
                             />
                             <div className="middle ">
@@ -937,14 +937,14 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row ">
+                        <div className="row align-items-center" style = {{height: "100%"}}>
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
                           >
                             <img
                               src="Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png "
-                              className="card-img-top img-fluid mx-auto d-block image "
+                              className="card-img-top img-fluid mx-auto image "
                               style={{ width: "150px" }}
                               alt="... "
                             />
