@@ -5,6 +5,7 @@ function ShopPage() {
   return (
     <Default>
       <Head>
+      <link href="Css/main.css" rel="stylesheet" type="text/css" />
         <link href="Css/shop.css" rel="stylesheet" type="text/css" />
       </Head>
       <div>
