@@ -15,7 +15,7 @@ const announcement = () => (
             <i>
               <b>Enjoy and extra 20% off</b>
             </i>{" "}
-            on selected bundled items. <b className="preadmore">Read More</b>
+            on selected bundled items.. <b className="preadmore">Read More</b>
             <span className="pclose float-right">X</span>
           </p>
         </div>
