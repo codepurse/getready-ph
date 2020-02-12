@@ -1,7 +1,7 @@
 import Default from "../../layouts/default";
 import Head from "next/head";
 import ReactSlider from 'react-slider';
-import IonRangeSlider  from 'react-ion-slider'
+
 
 function ShopPage() {
   return (
@@ -19,14 +19,14 @@ function ShopPage() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="form-inline">
                 <img src="Image/filter.png" className="img-fluid" style={{ width: "15px", marginRight: "5px" }}></img>
                 <p className="pFilter">Filter</p>
                 <span className="pResults">( 26 Results )</span>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="dropdown" style={{ backgroundColor: "#ffffff" }}>
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Sort by:
@@ -43,7 +43,7 @@ function ShopPage() {
             <div className="col-lg-3">
               <input type="text" className="txtSearch" placeholder="Search here.."></input>
 
-              <IonRangeSlider type={flat} min={100} max={500} from={120} to={240} step={1} values={2} keyboard={true}  />
+
 
               <p className="pCategory">Category</p>
 
