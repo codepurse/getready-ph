@@ -1,6 +1,7 @@
 import Default from "../../layouts/default";
 import Head from "next/head";
-import ReactSlider from 'react-slider'
+import ReactSlider from 'react-slider';
+import IonRangeSlider  from 'react-ion-slider'
 
 function ShopPage() {
   return (
@@ -42,12 +43,7 @@ function ShopPage() {
             <div className="col-lg-3">
               <input type="text" className="txtSearch" placeholder="Search here.."></input>
 
-              <ReactSlider
-                className="horizontal-slider"
-                thumbClassName="example-thumb"
-                trackClassName="example-track"
-                renderThumb={(props, state) => <div style={{ border: '1px solid black', margin: '20px', backgroundColor: 'black', ...props.style }} {...props}>{state.valueNow}</div>}
-              />
+              <IonRangeSlider type={flat} min={100} max={500} from={120} to={240} step={1} values={2} keyboard={true}  />
 
               <p className="pCategory">Category</p>
 
@@ -88,7 +84,7 @@ function ShopPage() {
                   <div className="divImageCard d-flex align-items-center justify-content-center">
                     <img className="card-img-top img-fluid imgItem" src="Image/Bag Photos/Carry Kit/Carry.png" alt="Card image cap" />
                     <div className="middle">
-                      <div className="addCard"><img src = "Image/carthoverwhite.png"></img></div>
+                      <div className="addCard"><img src="Image/carthoverwhite.png"></img></div>
                     </div>
                   </div>
                   <div className="card-body">
@@ -99,6 +95,9 @@ function ShopPage() {
                 <div className="card ">
                   <div className="divImageCard d-flex align-items-center justify-content-center">
                     <img className="card-img-top img-fluid imgItem" src="Image/Bag Photos/Auto Kit/autologo.png" alt="Card image cap" />
+                    <div className="middle">
+                      <div className="addCard"><img src="Image/carthoverwhite.png"></img></div>
+                    </div>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Carry Kit <span className="float-right">500.00</span></h5>
@@ -108,6 +107,9 @@ function ShopPage() {
                 <div className="card ">
                   <div className="divImageCard d-flex align-items-center justify-content-center">
                     <img className="card-img-top img-fluid imgItem" src="Image/Bag Photos/Belt Kit/EnforcerNew.png" alt="Card image cap" />
+                    <div className="middle">
+                      <div className="addCard"><img src="Image/carthoverwhite.png"></img></div>
+                    </div>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Carry Kit <span className="float-right">500.00</span></h5>
@@ -117,6 +119,9 @@ function ShopPage() {
                 <div className="card ">
                   <div className="divImageCard d-flex align-items-center justify-content-center">
                     <img className="card-img-top img-fluid imgItem" src="Image/Bag Photos/EDC Kit/EDCnew.png" alt="Card image cap" />
+                    <div className="middle">
+                      <div className="addCard"><img src="Image/carthoverwhite.png"></img></div>
+                    </div>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Carry Kit <span className="float-right">500.00</span></h5>
