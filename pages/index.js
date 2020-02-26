@@ -141,7 +141,7 @@ function HomePage() {
             <div className="col-lg-4 ">
               <div className="row rowNews">
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/banner2.jpg" className="img-fluid" />
+                  <img src="Image/Banner 2-2.jpg" className="img-fluid" />
                 </div>
                 <div
                   className="col-lg-7 col-md-7 col-sm-7 col-7"
@@ -157,28 +157,28 @@ function HomePage() {
               </div>
               <div className="row " style={{ marginTop: "5px" }}>
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/banner1.jpg" className="img-fluid" />
+                  <img src="Image/banner 1.jpg" className="img-fluid" />
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-7 col-7">
-                  <p className="ptitle ">PAGASA live updates</p>
+                  <p className="ptitle ">PAGASA & PHILVOCS live updates</p>
                   <p className="pnewstitle ">Click here</p>
                 </div>
               </div>
               <div className="row " style={{ marginTop: "5px" }}>
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/banner3.jpg" className="img-fluid " />
+                  <img src="Image/Banner 1-1.jpg" className="img-fluid " />
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-7 col-7">
-                  <p className="ptitle ">Product/Service videos</p>
+                  <p className="ptitle ">Videos</p>
                   <p className="pnewstitle ">Click here</p>
                 </div>
               </div>
               <div className="row " style={{ marginTop: "5px" }}>
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/box4.png " className="img-fluid " />
+                  <img src="Image/Untitled-1.png" className="img-fluid " />
                 </div>
                 <div className="col-lg-7col-md-7 col-sm-7 col-7">
-                  <p className="ptitle ">Recommended/Promos</p>
+                  <p className="ptitle ">Circle of Experts What they say</p>
                   <p className="pnewstitle ">Click here</p>
                 </div>
               </div>
