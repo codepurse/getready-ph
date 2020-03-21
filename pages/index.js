@@ -3,6 +3,12 @@ import Head from "next/head";
 const meta = {
   title: "GetReady - Home"
 };
+
+var x = 1;
+function shoot() {
+  $(".text").toggleClass("clamp");
+}
+
 const announcement = () => (
   <div
     className="container-fluid conannouncement"
@@ -92,7 +98,7 @@ function HomePage() {
                       className="d-block w-100 "
                       src="Image/carousel1.jpg "
                       alt="First slide "
-                      style={{ height: "310px !important" }}
+                      style={{ height: "370px !important" }}
                     />
                   </div>
                   <div className="carousel-item ">
@@ -100,7 +106,7 @@ function HomePage() {
                       className="d-block w-100 "
                       src="Image/carousel2.jpg "
                       alt="Second slide "
-                      style={{ height: "310px !important" }}
+                      style={{ height: "370px !important" }}
                     />
                   </div>
                   <div className="carousel-item ">
@@ -108,13 +114,13 @@ function HomePage() {
                       className="d-block w-100 "
                       src="Image/carousel3.jpg "
                       alt="Third slide "
-                      style={{ height: "310px !important" }}
+                      style={{ height: "370px !important" }}
                     />
                   </div>
                 </div>
               </div>
               <p
-                className="paboutus1 "
+                className="paboutus1 text"
                 style={{
                   marginTop: "10px",
                   fontSize: "1rem",
@@ -122,6 +128,7 @@ function HomePage() {
                   color: "#F5F5F5",
                   padding: "5px"
                 }}
+                onClick={shoot}
               >
                 The world as we know it is no longer a safe place. Man induced
                 terrors, accidents and natural disasters are making headlines
@@ -141,7 +148,12 @@ function HomePage() {
             <div className="col-lg-4 ">
               <div className="row rowNews">
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/Banner 2-2.jpg" className="img-fluid" />
+                  <img
+                    src="Image/Banner 2-2.jpg"
+                    className="img-fluid"
+                    data-toggle="modal"
+                    data-target="#exampleModal1"
+                  />
                 </div>
                 <div
                   className="col-lg-7 col-md-7 col-sm-7 col-7"
@@ -149,8 +161,8 @@ function HomePage() {
                 >
                   <p className="ptitle ">
                     {" "}
-                    Basic Emergencies <br /> What to do? <br /> Tips from
-                    Lifeline 1911
+                    Basic Emergencies <br /> What to do before help arrives{" "}
+                    <br /> Tips from Lifeline 16911
                   </p>
                   <p className="pnewstitle ">Click here</p>
                 </div>
@@ -238,7 +250,7 @@ function HomePage() {
                   <div className="box1">
                     <p>WHAT YOU NEED TO KNOW</p>
                     <p style={{ marginTop: "-15px", fontSize: "1rem" }}>
-                      Earthquake, Typhoon and Fire
+                      Earthquake, Typhoon, Fire & Pandemic
                     </p>
                     <p
                       style={{
@@ -337,7 +349,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style= {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -345,7 +360,7 @@ function HomePage() {
                             <img
                               src="Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png"
                               className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px"}}
+                              style={{ width: "150px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -410,12 +425,15 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div className="col-lg-12">
                             <img
                               src="Image/Bag Photos/Trauma Kit/trauma.png"
                               className="card-img-top img-fluid mx-auto image"
-                              style={{ width: "160px"}}
+                              style={{ width: "160px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -479,7 +497,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -487,7 +508,7 @@ function HomePage() {
                             <img
                               src="Image/Bag Photos/Carry Kit/Carry.png "
                               className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px"}}
+                              style={{ width: "150px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -564,7 +585,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -572,7 +596,7 @@ function HomePage() {
                             <img
                               src="Image/Bag Photos/EDC Kit/EDCnew.png "
                               className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px"}}
+                              style={{ width: "150px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -636,7 +660,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -644,7 +671,7 @@ function HomePage() {
                             <img
                               src="Image/Bag Photos/Flexi Kit/FLEXIKITEXPANDED.png "
                               className="card-img-top img-fluid image mx-auto"
-                              style={{ width: "140px"}}
+                              style={{ width: "140px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -708,7 +735,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -793,7 +823,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -865,7 +898,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image"
                             style={{ position: "relative" }}
@@ -873,7 +909,7 @@ function HomePage() {
                             <img
                               src="Image/Bag Photos/KIDZ/LifeKit Kidz.png "
                               className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px"}}
+                              style={{ width: "150px" }}
                               alt="... "
                             />
                             <div className="middle ">
@@ -937,7 +973,10 @@ function HomePage() {
                       }}
                     >
                       <div className="divimage " style={{ height: "240px" }}>
-                        <div className="row align-items-center" style = {{height: "100%"}}>
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
                           <div
                             className="col-lg-12 show-image "
                             style={{ position: "relative" }}
@@ -998,6 +1037,152 @@ function HomePage() {
                           </span>
                         </h5>
                         <p className="card-text ">Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="modal fade"
+          id="exampleModal1"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content">
+              <div className="modal-body">
+                <p className="pTell">Tell us what you want to do.</p>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/knife.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Bleed and Cuts</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/cardiac.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Cardiac Arrest</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/emoji.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Concussion</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/drown.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Drowning</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/knife.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Fainting</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/skin-care.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Seizure</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/fire.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Burns</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/choking.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Choking</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/dizziness.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Dizziness</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/electrocute.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Elochocution</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/fracture.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Fracture</label>
+                        </div>
+                      </div>
+                      <div className="box">
+                        <div className="form-inline">
+                          <img
+                            src="Image/headache.png"
+                            className="img-fluid"
+                            style={{ width: "25px" }}
+                          ></img>
+                          <label className="lblModal">Stroke</label>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -15,10 +15,7 @@
     .txtsearch {
         width: 100% !important;
     }
-    .btnabout,
-    .btnstores,
-    .btnfaqs,
-    .btncontact {
+    .btnabout, .btnstores, .btnfaqs, .btncontact {
         display: block !important;
     }
     .divNews {
@@ -56,9 +53,7 @@
     .rowLatest {
         margin-top: 20px !important;
     }
-    .colLatest,
-    .colPopular,
-    .colLimited {
+    .colLatest, .colPopular, .colLimited {
         padding: 0px 15px !important;
     }
     .card {
@@ -81,13 +76,11 @@
     src: url("../Font/Proxima/ProximaNova-Semibold.ttf");
 }
 
-body,
-html {
+body, html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
-
 
 /* Important part */
 
@@ -158,12 +151,7 @@ html {
     cursor: pointer;
 }
 
-.preadmore:hover,
-.pclose:hover,
-.btnabout:hover,
-.btnfaq:hover,
-.btncontact:hover,
-.btnstores:hover {
+.preadmore:hover, .pclose:hover, .btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstores:hover {
     color: #e83b4f !important;
 }
 
@@ -181,10 +169,7 @@ html {
     margin-left: 10px;
 }
 
-.btnabout:hover,
-.btnfaq:hover,
-.btncontact:hover,
-.btnstore:hover {
+.btnabout:hover, .btnfaq:hover, .btncontact:hover, .btnstore:hover {
     transition: all 0.2s;
     cursor: pointer;
 }
@@ -202,12 +187,7 @@ html {
     width: 250px;
 }
 
-.btnhome:hover,
-.btnproduct:hover,
-.btncontact:hover,
-.btnnews:hover,
-.btnlogin:hover,
-.btncart:hover {
+.btnhome:hover, .btnproduct:hover, .btncontact:hover, .btnnews:hover, .btnlogin:hover, .btncart:hover {
     color: #e83b4f !important;
 }
 
@@ -390,8 +370,7 @@ html {
     transform: scale(0);
 }
 
-.cbx+span,
-.rdo+span {
+.cbx+span, .rdo+span {
     float: left;
     margin-left: 6px;
 }
@@ -407,8 +386,7 @@ html {
     cursor: pointer;
 }
 
-.forms input[type="checkbox"],
-.forms input[type="radio"] {
+.forms input[type="checkbox"], .forms input[type="radio"] {
     position: absolute;
     opacity: 0;
 }
@@ -464,8 +442,7 @@ html {
     outline: none;
 }
 
-.divimagem,
-.imgnews {
+.divimagem, .imgnews {
     transition: all 0.2s;
     cursor: pointer;
 }
@@ -533,8 +510,7 @@ html {
     transition: all 0.2s;
 }
 
-.platest:hover,
-.pviewmore:hover {
+.platest:hover, .pviewmore:hover {
     color: #e83b4f;
 }
 
@@ -583,8 +559,7 @@ html {
     background-color: transparent !important;
 }
 
-.box1:hover,
-.box1:hover * {
+.box1:hover, .box1:hover * {
     background-color: #a30c25;
     color: white;
 }
@@ -645,18 +620,12 @@ html {
     height: 100%;
 }
 
-.pNews1,
-.pNews2,
-.pNews3,
-.pNews4 {
+.pNews1, .pNews2, .pNews3, .pNews4 {
     cursor: pointer;
     transition: all 0.2s;
 }
 
-.pNews1:hover,
-.pNews2:hover,
-.pNews3:hover,
-.pNews4:hover {
+.pNews1:hover, .pNews2:hover, .pNews3:hover, .pNews4:hover {
     color: #e83b4f;
 }
 
@@ -688,4 +657,46 @@ html {
     100% {
         transform: translate(-100%, 0);
     }
+}
+
+.text {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.2s;
+}
+
+.text.clamp {
+    -webkit-line-clamp: 10;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.box:hover {
+    background-color: rgb(246, 244, 246);
+}
+
+.pTell {
+    font-family: Proxima Nova semibold;
+    color: #212121;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lblModal {
+    font-family: Proxima Nova semibold;
+    color: #212121;
+    font-size: 1rem;
+    margin-left: 10px;
 }
