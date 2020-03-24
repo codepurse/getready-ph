@@ -230,6 +230,15 @@ body, html {
     cursor: pointer;
 }
 
+.pReadMore {
+    font-family: Proxima Nova, sans-serif;
+    color: #1565C0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
 .plifekit {
     font-family: Proxima Nova, sans-serif;
     color: #212121;

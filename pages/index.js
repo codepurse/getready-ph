@@ -7,6 +7,13 @@ const meta = {
 var x = 1;
 function shoot() {
   $(".text").toggleClass("clamp");
+  if (x == 1) {
+    $(".pReadMore").text("Close");
+    x = 0;
+  } else {
+    $(".pReadMore").text("Read More");
+    x = 1;
+  }
 }
 
 const announcement = () => (
@@ -128,7 +135,6 @@ function HomePage() {
                   color: "#F5F5F5",
                   padding: "5px"
                 }}
-                onClick={shoot}
               >
                 The world as we know it is no longer a safe place. Man induced
                 terrors, accidents and natural disasters are making headlines
@@ -144,12 +150,15 @@ function HomePage() {
                 the answers. It is now up to us to keep ourselves safe. It is
                 time to start getting prepared. It is time for GetReadyPH!
               </p>
+              <p onClick={shoot} className="pReadMore">
+                Read More
+              </p>
             </div>
             <div className="col-lg-4 ">
               <div className="row rowNews">
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                   <img
-                    src="Image/Banner 2-2.jpg"
+                    src="Image/Banner.jpg"
                     className="img-fluid"
                     data-toggle="modal"
                     data-target="#exampleModal1"
@@ -287,7 +296,7 @@ function HomePage() {
               </div>
               <div className="row " style={{ marginTop: "10px" }}>
                 <div className="col-lg-12 ">
-                  <img src="Image/ads.png " className="img-fluid " />
+                  <img src="Image/1.jpg" className="img-fluid " />
                 </div>
               </div>
               <div className="row " style={{ marginTop: "20px" }}>
