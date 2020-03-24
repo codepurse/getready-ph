@@ -21,7 +21,7 @@ export default ({
         />
         <meta
           property="og:description"
-          content={props.description || "Bridescall - Wedding Inspirations"}
+          content={props.description || "GetReady - Emergency Preparedness"}
         />
         <meta
           property="og:image"
