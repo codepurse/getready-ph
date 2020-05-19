@@ -580,8 +580,7 @@ function HomePage() {
                   className="col-lg-12 colPopular"
                   style={{ padding: "0px 5px" }}
                 >
-                  <label className="platest ">MOST POPULAR</label>
-                  <label className="pviewmore float-right ">VIEW MORE</label>
+                  <p className="platest text-center">PRODUCTS AND SERVICES</p>
                 </div>
                 <div className="col-lg-12 " style={{ padding: "0px 5px" }}>
                   <div className="card-deck ">
@@ -593,7 +592,7 @@ function HomePage() {
                         border: "0px"
                       }}
                     >
-                      <div className="divimage " style={{ height: "240px" }}>
+                      <div className="divimage">
                         <div
                           className="row align-items-center"
                           style={{ height: "100%" }}
@@ -603,27 +602,12 @@ function HomePage() {
                             style={{ position: "relative" }}
                           >
                             <img
-                              src="Image/Bag Photos/EDC Kit/EDCnew.png "
-                              className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px" }}
+                              src="Image/pandemic.jpg"
+                              className="card-img-top img-fluid mx-auto image serviceImage"
                               alt="... "
                             />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
+                            <div className="middle">
+                              <button className="btnaddtocart">
                                 <img
                                   src="Image/viewcart.png "
                                   onMouseOver={e =>
@@ -637,6 +621,9 @@ function HomePage() {
                                 />
                               </button>
                             </div>
+                            <h5 className="card-title serviceName">
+                                  PANDEMIC{" "}
+                            </h5>
                           </div>
                         </div>
                       </div>
@@ -648,16 +635,60 @@ function HomePage() {
                           paddingRight: "0px"
                         }}
                       >
-                        <h5 className="card-title ">
-                          EDC Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
+                      </div>
+                    </div>
+                    <div
+                      className="card "
+                      style={{
+                        width: "18rem",
+                        backgroundColor: "#F5F5F5",
+                        border: "0px"
+                      }}
+                    >
+                      <div className="divimage">
+                        <div
+                          className="row align-items-center"
+                          style={{ height: "100%" }}
+                        >
+                          <div
+                            className="col-lg-12 show-image "
+                            style={{ position: "relative" }}
                           >
-                            ₱400
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
+                            <img
+                              src="Image/earthquake.jpg"
+                              className="card-img-top img-fluid image mx-auto serviceImage"
+                              alt="... "
+                            />
+                            <div className="middle">
+                              <button className="btnaddtocart">
+                                <img
+                                  src="Image/viewcart.png "
+                                  onMouseOver={e =>
+                                    (e.currentTarget.src =
+                                      "Image/viewcartwhite.png")
+                                  }
+                                  onMouseOut={e =>
+                                    (e.currentTarget.src = "Image/viewcart.png")
+                                  }
+                                  className="img-fluid "
+                                />
+                              </button>
+                            </div>
+                            <h5 className="card-title serviceName">
+                                  EARTHQUAKE{" "}
+                                </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="card-body "
+                        style={{
+                          backgroundColor: "white",
+                          paddingLeft: "0px",
+                          paddingRight: "0px"
+                        }}
+                      >
+                        
                       </div>
                     </div>
                     <div
@@ -678,27 +709,12 @@ function HomePage() {
                             style={{ position: "relative" }}
                           >
                             <img
-                              src="Image/Bag Photos/Flexi Kit/FLEXIKITEXPANDED.png "
-                              className="card-img-top img-fluid image mx-auto"
-                              style={{ width: "140px" }}
+                              src="Image/fire.jpg"
+                              className="card-img-top img-fluid mx-auto image serviceImage"
                               alt="... "
                             />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
+                            <div className="middle">
+                              <button className="btnaddtocart">
                                 <img
                                   src="Image/viewcart.png "
                                   onMouseOver={e =>
@@ -712,6 +728,9 @@ function HomePage() {
                                 />
                               </button>
                             </div>
+                            <h5 className="card-title serviceName">
+                                  FIRE{" "}
+                                </h5>
                           </div>
                         </div>
                       </div>
@@ -723,104 +742,12 @@ function HomePage() {
                           paddingRight: "0px"
                         }}
                       >
-                        <h5 className="card-title ">
-                          Flexi Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
-                          >
-                            ₱200
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
-                      </div>
-                    </div>
-                    <div
-                      className="card "
-                      style={{
-                        width: "18rem",
-                        backgroundColor: "#F5F5F5",
-                        border: "0px"
-                      }}
-                    >
-                      <div className="divimage " style={{ height: "240px" }}>
-                        <div
-                          className="row align-items-center"
-                          style={{ height: "100%" }}
-                        >
-                          <div
-                            className="col-lg-12 show-image "
-                            style={{ position: "relative" }}
-                          >
-                            <img
-                              src="Image/Bag Photos/Sling/sling.png "
-                              className="card-img-top img-fluid mx-auto image"
-                              style={{ width: "110px" }}
-                              alt="... "
-                            />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/viewcart.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/viewcartwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src = "Image/viewcart.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="card-body "
-                        style={{
-                          backgroundColor: "white",
-                          paddingLeft: "0px",
-                          paddingRight: "0px"
-                        }}
-                      >
-                        <h5 className="card-title ">
-                          Sling Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
-                          >
-                            ₱200
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="row " style={{ marginTop: "15px" }}>
-                <div
-                  className="col-lg-12 colLimited"
-                  style={{ padding: "0px 5px" }}
-                >
-                  <label className="platest ">LIMITED STOCKS LEFT</label>
-                  <label className="pviewmore float-right ">VIEW MORE</label>
-                </div>
                 <div className="col-lg-12 " style={{ padding: "0px 5px" }}>
                   <div className="card-deck ">
                     <div
@@ -841,27 +768,12 @@ function HomePage() {
                             style={{ position: "relative" }}
                           >
                             <img
-                              src="Image/Bag Photos/Mega Kit/MegaKit.png "
-                              className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px", marginTop: "30px" }}
+                              src="Image/typhoon.jpg"
+                              className="card-img-top img-fluid mx-auto image serviceImage"
                               alt="... "
                             />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
+                            <div className="middle">
+                              <button className="btnaddtocart">
                                 <img
                                   src="Image/viewcart.png "
                                   onMouseOver={e =>
@@ -875,6 +787,9 @@ function HomePage() {
                                 />
                               </button>
                             </div>
+                            <h5 className="card-title serviceName">
+                                  TYPHOON{" "}
+                                </h5>
                           </div>
                         </div>
                       </div>
@@ -886,16 +801,7 @@ function HomePage() {
                           paddingRight: "0px"
                         }}
                       >
-                        <h5 className="card-title ">
-                          Mega Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
-                          >
-                            ₱200
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
+                        
                       </div>
                     </div>
                     <div
@@ -916,27 +822,12 @@ function HomePage() {
                             style={{ position: "relative" }}
                           >
                             <img
-                              src="Image/Bag Photos/KIDZ/LifeKit Kidz.png "
-                              className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px" }}
+                              src="Image/emt.jpg"
+                              className="card-img-top img-fluid mx-auto image serviceImage"
                               alt="... "
                             />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
+                            <div className="middle">
+                              <button className="btnaddtocart">
                                 <img
                                   src="Image/viewcart.png "
                                   onMouseOver={e =>
@@ -950,6 +841,9 @@ function HomePage() {
                                 />
                               </button>
                             </div>
+                            <h5 className="card-title serviceName mb-0">
+                                  MEDICAL / EMT{" "}
+                                </h5>
                           </div>
                         </div>
                       </div>
@@ -961,16 +855,6 @@ function HomePage() {
                           paddingRight: "0px"
                         }}
                       >
-                        <h5 className="card-title ">
-                          Kidz Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
-                          >
-                            ₱200
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
                       </div>
                     </div>
                     <div
@@ -991,27 +875,12 @@ function HomePage() {
                             style={{ position: "relative" }}
                           >
                             <img
-                              src="Image/Bag Photos/Auto Kit/AutoFinalWarningUp.png "
-                              className="card-img-top img-fluid mx-auto image "
-                              style={{ width: "150px" }}
+                              src="Image/emergency.jpg"
+                              className="card-img-top img-fluid mx-auto image serviceImage"
                               alt="... "
                             />
-                            <div className="middle ">
-                              <button className="btnaddtocart ">
-                                <img
-                                  src="Image/carthover.png "
-                                  onMouseOver={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthoverwhite.png")
-                                  }
-                                  onMouseOut={e =>
-                                    (e.currentTarget.src =
-                                      "Image/carthover.png")
-                                  }
-                                  className="img-fluid "
-                                />
-                              </button>
-                              <button className="btnaddtocart ">
+                            <div className="middle">
+                              <button className="btnaddtocart">
                                 <img
                                   src="Image/viewcart.png "
                                   onMouseOver={e =>
@@ -1025,6 +894,9 @@ function HomePage() {
                                 />
                               </button>
                             </div>
+                            <h5 className="card-title serviceName mb-0">
+                                  AUTO EMERGENCY{" "}
+                                </h5>
                           </div>
                         </div>
                       </div>
@@ -1036,16 +908,6 @@ function HomePage() {
                           paddingRight: "0px"
                         }}
                       >
-                        <h5 className="card-title ">
-                          Auto Kit{" "}
-                          <span
-                            className="float-right "
-                            style={{ fontWeight: "bold" }}
-                          >
-                            ₱200
-                          </span>
-                        </h5>
-                        <p className="card-text ">Lorem ipsum dolor sit amet</p>
                       </div>
                     </div>
                   </div>
