@@ -127,7 +127,7 @@ function HomePage() {
                 </div>
               </div>
               <p
-                className="paboutus1 text"
+                className="paboutus1 text mb-2"
                 style={{
                   marginTop: "10px",
                   fontSize: "1rem",
@@ -150,9 +150,9 @@ function HomePage() {
                 the answers. It is now up to us to keep ourselves safe. It is
                 time to start getting prepared. It is time for GetReadyPH!
               </p>
-              <p onClick={shoot} className="pReadMore">
+              <button onClick={shoot} className="pReadMore btn btn-primary text-white">
                 Read More
-              </p>
+              </button>
             </div>
             <div className="col-lg-4 ">
               <div className="row rowNews">
@@ -187,7 +187,7 @@ function HomePage() {
               </div>
               <div className="row " style={{ marginTop: "5px" }}>
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/Banner 1-1.jpg" className="img-fluid " />
+                  <img src="Image/Banner3.jpg" className="img-fluid " />
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-7 col-7">
                   <p className="ptitle ">Videos</p>
@@ -296,7 +296,9 @@ function HomePage() {
               </div>
               <div className="row " style={{ marginTop: "10px" }}>
                 <div className="col-lg-12 ">
+                <a href="http://www.lifeline.com.ph/membership/pay/sales">
                   <img src="Image/1.jpg" className="img-fluid " />
+                  </a>
                 </div>
               </div>
               <div className="row " style={{ marginTop: "20px" }}>
