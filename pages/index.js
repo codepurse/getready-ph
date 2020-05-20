@@ -187,7 +187,7 @@ function HomePage() {
               </div>
               <div className="row " style={{ marginTop: "5px" }}>
                 <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                  <img src="Image/Banner3.jpg" className="img-fluid " />
+                  <img src="Image/banner3.jpg" className="img-fluid " />
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-7 col-7">
                   <p className="ptitle ">Videos</p>
