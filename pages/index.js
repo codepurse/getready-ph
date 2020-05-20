@@ -957,7 +957,7 @@ function HomePage() {
                       <div className="box">
                         <div className="form-inline">
                           <img
-                            src="Image/emoji.png"
+                            src="Image/concussion.png"
                             className="img-fluid"
                             style={{ width: "25px" }}
                           ></img>
@@ -987,7 +987,7 @@ function HomePage() {
                       <div className="box">
                         <div className="form-inline">
                           <img
-                            src="Image/skin-care.png"
+                            src="Image/seizure.png"
                             className="img-fluid"
                             style={{ width: "25px" }}
                           ></img>
@@ -1030,7 +1030,7 @@ function HomePage() {
                       <div className="box">
                         <div className="form-inline">
                           <img
-                            src="Image/electrocute.png"
+                            src="Image/electrocution.png"
                             className="img-fluid"
                             style={{ width: "25px" }}
                           ></img>
@@ -1050,7 +1050,7 @@ function HomePage() {
                       <div className="box">
                         <div className="form-inline">
                           <img
-                            src="Image/headache.png"
+                            src="Image/stroke.png"
                             className="img-fluid"
                             style={{ width: "25px" }}
                           ></img>
